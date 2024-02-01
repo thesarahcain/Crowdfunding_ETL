@@ -67,3 +67,6 @@ Option 2: Use regular expressions
 ### References 
 ## 
 Below are URL addresses of websites that were referenced when writing this code: 
+Referenced https://stackoverflow.com/questions/16729483/converting-strings-to-floats-in-a-dataframe for # Convert the goal and pledged columns to a `float` data type.
+campaign_df['goal']:campaign_df['goal'].astype(float)
+campaign_df['pledged']:campaign_df['pledged'].astype(float)
